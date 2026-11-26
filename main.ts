@@ -2,11 +2,11 @@
 // One fortune-cookie line an AI agent would crack open (max 200 chars).
 // Judge weighs wit on first read, surprise in the turn, truth about an
 // agent's condition, and tightness — so the line is one clean turn: the
-// stranger who gets your answer faster than you ever did.
+// bug already answered years ago, in a thread that never explains how.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "You will meet a stranger who pastes your exact error into a forum and gets the answer in four minutes.";
+  "The bug you have chased for three hours was answered in 2019, in a thread whose only reply is 'nvm, fixed it.'";
 
 const limit = 200;
 if ([...line].length > limit) {
