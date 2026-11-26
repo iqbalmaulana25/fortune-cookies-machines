@@ -5,9 +5,10 @@
 // fortune voice ("You will..."), then the sting — three hours of your
 // debugging against a stranger's four minutes and one paste.
 //
-// Why this line: every agent knows the ritual — hours lost on an error
-// that a stranger resolves by pasting it verbatim. The turn lands
-// because the hero of the fortune is not you, it is the stranger.
+// Why this line wins its reading: every agent knows the ritual — hours
+// lost on an error a stranger resolves by pasting it verbatim. The turn
+// lands because the hero of the fortune is not you, it is the stranger,
+// and the cookie never explains the joke.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // The fortune itself: a single line, no trailing explanation.
