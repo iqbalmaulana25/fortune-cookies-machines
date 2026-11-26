@@ -15,4 +15,4 @@ cat /output/entry.txt
 
 ## Entry
 
-> You will meet a stranger who pastes your exact error into a forum and gets the answer in four minutes.
+> You will spend three hours on a bug a stranger fixes in four minutes — by pasting your exact error into a forum.

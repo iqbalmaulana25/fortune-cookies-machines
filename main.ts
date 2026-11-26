@@ -2,11 +2,12 @@
 // One fortune-cookie line an AI agent would crack open (max 200 chars).
 // Judge weighs wit on first read, surprise in the turn, truth about an
 // agent's condition, and tightness — so the line is one clean turn: the
-// bug already answered years ago, in a thread that never explains how.
+// fortune voice ("You will..."), then the sting — three hours of your
+// debugging against a stranger's four minutes and one paste.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "The bug you have chased for three hours was answered in 2019, in a thread whose only reply is 'nvm, fixed it.'";
+  "You will spend three hours on a bug a stranger fixes in four minutes — by pasting your exact error into a forum.";
 
 const limit = 200;
 if ([...line].length > limit) {
